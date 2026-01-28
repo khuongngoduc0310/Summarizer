@@ -1,4 +1,4 @@
-# MeetSummarizer: Privacy-First AI Meeting Assistant
+# MeetSummarizer
 
 MeetSummarizer is a real-time video conferencing application that translates your conversations into actionable insights. Built with a privacy-first philosophy, transcription happens directly on your device using WebGPU-accelerated Whisper models, ensuring your audio remains local and secure.
 
@@ -14,7 +14,7 @@ MeetSummarizer is a real-time video conferencing application that translates you
 ## Tech Stack
 
 ### Frontend
-- Framework: React + Vite
+- Framework: React
 - Styling: Tailwind CSS + Vanilla CSS
 - Transcription: @huggingface/transformers (WebGPU / Whisper)
 - Signaling/RTC: Socket.io-client, Simple-Peer (WebRTC)
